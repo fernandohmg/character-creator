@@ -9,12 +9,11 @@
   height: 40%;
   bottom: 0;
   background-color: hsl(195deg, 20%, 86%);
-  isolation: isolate;
 }
 
 .maxWidthWrapper {
   max-width: 1024px;
-  isolation: isolate;
+  position: relative;
 }
 
 .header {
@@ -37,9 +36,10 @@
 
 .characterWrapper {
   position: fixed;
-  bottom: 0;
-  right: 0;
-  height: 800px;
+  top: 15%;
+  bottom: 5%;
+  left: 60%;
+  min-height: 500px;
 }
 
 .controlColumn {
